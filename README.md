@@ -1,4 +1,4 @@
-# Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-
+# Helpdesk Home Lab - Shared Folders, Network Drives, & NTFS Permissions (Windows Server 2022)
 
 <h2>Description</h2>
 
