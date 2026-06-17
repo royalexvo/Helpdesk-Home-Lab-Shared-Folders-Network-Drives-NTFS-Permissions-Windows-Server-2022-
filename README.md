@@ -54,107 +54,107 @@ This lab demonstrates how organizations manage shared resources, enforce least p
 <p align="center">
 <b>Step 1 – Open File and Storage Services</b><br/><br/>
 Launch Server Manager and navigate to File and Storage Services to manage shared folders:<br/>
-<img src="INSERT_STEP_1_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/1.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 2 – Create a New Shared Folder</b><br/><br/>
 Create a new SMB share on the Windows Server and specify the share location:<br/>
-<img src="INSERT_STEP_2_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/2.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 3 – Configure Share Settings</b><br/><br/>
 Assign a name to the share and review the share configuration options:<br/>
-<img src="INSERT_STEP_3_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/3.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 4 – Customize Share Permissions</b><br/><br/>
-Remove the default Everyone group and configure custom access permissions:<br/>
-<img src="INSERT_STEP_4_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+Remove the default users group and configure custom access permissions for administrators only:<br/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/4.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
-<b>Step 5 – Create a Department Folder</b><br/><br/>
+<b>Step 5 – Create a Subfolder</b><br/><br/>
 Create a subfolder within the shared directory to provide granular access control:<br/>
-<img src="INSERT_STEP_5_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/5.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 6 – Configure NTFS Security Permissions</b><br/><br/>
 Modify the folder security settings and prepare access for authorized users:<br/>
-<img src="INSERT_STEP_6_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/6.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 7 – Add a Domain User</b><br/><br/>
 Grant a domain user access to the folder and assign modify permissions:<br/>
-<img src="INSERT_STEP_7_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/7.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 8 – Verify Network Connectivity</b><br/><br/>
 Confirm the client machine can communicate with the domain controller and shared resources:<br/>
-<img src="INSERT_STEP_8_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/8.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 9 – Access the Shared Folder</b><br/><br/>
 Log in as the assigned user and connect to the network share:<br/>
-<img src="INSERT_STEP_9_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/9.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 10 – Verify Folder Restrictions</b><br/><br/>
 Confirm the user can access only the authorized folder and not parent directories:<br/>
-<img src="INSERT_STEP_10_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/10.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 11 – Create a Quick Access Shortcut</b><br/><br/>
 Pin the network share to Quick Access for easier access by the end user:<br/>
-<img src="INSERT_STEP_11_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/11.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 12 – Map a Network Drive</b><br/><br/>
 Map the shared folder to a drive letter using File Explorer:<br/>
-<img src="INSERT_STEP_12_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/12.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 13 – Verify the Mapping with NET USE</b><br/><br/>
 Use the NET USE command to confirm the mapped network drive configuration:<br/>
-<img src="INSERT_STEP_13_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/13.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 14 – Create an Active Directory Security Group</b><br/><br/>
 Create a security group that will be used to manage folder access permissions:<br/>
-<img src="INSERT_STEP_14_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/14.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 15 – Add Users to the Security Group</b><br/><br/>
 Assign users to the security group instead of granting direct folder permissions:<br/>
-<img src="INSERT_STEP_15_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/15.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 16 – Assign Folder Permissions to the Security Group</b><br/><br/>
 Grant the security group access to the shared folder and remove direct user permissions:<br/>
-<img src="INSERT_STEP_16_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/16.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 17 – Review Effective Access</b><br/><br/>
 Use Effective Access to verify the permissions granted to users through group membership:<br/>
-<img src="INSERT_STEP_17_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/17.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
 
 <p align="center">
 <b>Step 18 – Test Real-Time File Sharing</b><br/><br/>
 Create and modify files to verify real-time access between the server and client:<br/>
-<img src="INSERT_STEP_18_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
+<img src="https://github.com/royalexvo/Helpdesk-Home-Lab-Shared-Folders-Network-Drives-NTFS-Permissions-Windows-Server-2022-/blob/main/18.png?raw=true" height="80%" width="80%" alt="Lab Steps"/>
 </p>
