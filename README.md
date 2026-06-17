@@ -158,9 +158,3 @@ Use Effective Access to verify the permissions granted to users through group me
 Create and modify files to verify real-time access between the server and client:<br/>
 <img src="INSERT_STEP_18_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
 </p>
-
-<p align="center">
-<b>Step 19 – Review Permission Management Best Practices</b><br/><br/>
-Review the benefits of using security groups and least privilege access when managing shared resources:<br/>
-<img src="INSERT_STEP_19_IMAGE_HERE" height="80%" width="80%" alt="Lab Steps"/>
-</p>
